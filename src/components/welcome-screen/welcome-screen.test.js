@@ -8,6 +8,7 @@ describe(`Welcome screen unit tests`, () => {
       .create(
           <WelcomeScreen
             errorsCount={3}
+            welcomeButtonClickHandler={() => {}}
           />)
       .toJSON();
 
